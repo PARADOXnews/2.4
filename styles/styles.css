@@ -96,3 +96,14 @@
 
 
 
+
+
+
+
+.submit input[type=text], .submit input[type=mail] {
+   display:block
+}
+
+.submitd {
+   display:block;
+}
