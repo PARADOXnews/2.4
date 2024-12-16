@@ -95,15 +95,52 @@
 }
 
 
-
-
-
-
-
-.submit input[type=text], .submit input[type=mail] {
-   display:block
+.submit {
+   max-width: 546px;
+   padding: 40px 32px;
+   width: 100%;
+   border-radius: 24px;
+   background: #EBF8FE;
+   margin: auto;
+   margin-top: 72px;
+   margin-bottom:99px;
 }
 
-.submitd {
-   display:block;
+.submit>h1 {
+   color: #181D27;
+   font-family: "Inria Sans";
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom:24px;
+}
+
+
+
+
+
+.submit input[type=text],
+.submit input[type=mail] {
+   display: block;
+   color: #6D5F8B;
+   font-family: Noto Sans Georgian;
+   font-size: 14px;
+   font-weight: 400;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: 1px solid #380054;
+   width:100%;
+   margin-top:4px; 
+   margin-bottom:24px; 
+}
+
+.submit label {
+   color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.submit>form>p {
+   display: block;
 }
