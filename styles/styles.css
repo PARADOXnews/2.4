@@ -1,0 +1,98 @@
+* {
+   font-family: lato;
+   box-sizing: border-box;
+}
+
+.foto {
+   background: url("../images/image.png");
+   max-width: 1400px;
+   width: 100%;
+   height: 674px;
+   border-radius: 33px;
+   padding: 39px 71px;
+   margin: auto;
+   margin-top: 156px;
+   margin-bottom: 115px;
+}
+
+
+.foto p {
+   color: #FFF;
+   font-family: Poetsen One;
+   font-size: 44px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+}
+
+.subscribe {
+   border-radius: 24px;
+
+   width: 1137px;
+   padding: 40px 32px;
+   gap: 24px;
+   background-color: #EBF8FE;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.subscribe h1 {
+   color: #181D27;
+   font-family: Inria Sans;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 60px;
+   letter-spacing: -1.28px;
+}
+
+.subscribe>p {
+   color: #535862;
+   font-family: Instrument Sans;
+   font-size: 32px;
+   font-weight: 400;
+   line-height: 44px;
+}
+
+.subscribe input[type=mail] {
+   color: #717680;
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 400;
+   border-radius: 8px;
+   border: 1px solid #D5D7DA;
+   background: #FFF;
+   padding: 12px 14px;
+   width: 317px;
+}
+
+.subscribe input[type=submit] {
+   border-radius: 8px;
+   border: 2px solid #FFF;
+   background: #007CB8;
+   color: white;
+   padding: 12px 18px;
+   margin-left: 24px;
+}
+
+.subscribe>div {
+   width: 488px;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.subscribe>div>p {
+   color: #535862;
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.subscribe>div>p>a {
+   color: #535862;
+   font-family: Inter;
+   font-size: 14px;
+}
+
+
+
